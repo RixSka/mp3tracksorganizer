@@ -10,7 +10,7 @@ Here you are a simple script that will separate your tracks by album reading id3
 [NodeJS](https://nodejs.org/en/download/)
 
 ### HOW TO
-- Download script + modules here (or clone repo)
+- Download script + modules [here](https://github.com/RixSka/mp3tracksorganizer/archive/1.0.zip) (or clone repo)
 - Run on cmd / bash from script folder (assuming nodejs is available through environment variable):
 ```
 node mp3tracksorganizer /path/of/files
