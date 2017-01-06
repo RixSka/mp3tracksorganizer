@@ -24,6 +24,12 @@ Here you are a list with related npmjs link:
 - [mv](https://www.npmjs.com/package/mv)
 - [node-id3](https://www.npmjs.com/package/node-id3)
 
+If you downloaded only script + package.json, you can run:
+```
+npm install
+```
+This will install missing dependencies.
+
 ### LICENSE
 [MIT](https://github.com/RixSka/mp3tracksorganizer/blob/master/LICENSE)
 
