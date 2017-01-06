@@ -1,0 +1,21 @@
+{
+  "name": "mp3tracksorganizer",
+  "version": "1.0.0",
+  "description": "Separate mp3 tracks by album creating folders using '%year - %album format' from id3 tags",
+  "main": "trackseparate.js",
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "node-id3": "^0.0.7",
+    "mv": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "placeholder"
+  },
+  "author": "RixSka <rixska@yahoo.it>",
+  "license": "MIT"
+}
