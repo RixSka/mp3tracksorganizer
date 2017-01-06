@@ -5,7 +5,7 @@ var path = require('path');
 var args = process.argv.slice(2);
 var mPath; //where music is
 if (typeof args[0] == 'undefined'){ //check if at least an argument is specified 
-    console.log("Usage: node trackseparate path/of/files");
+    console.log("Usage: node mp3trackorganizer path/of/files");
     process.exit(1);
 } else{
     mPath = args[0]; //set first argument as path. Other pathes will be ignored
@@ -71,7 +71,7 @@ for (var i = 0;i<files;i++){ //do the job
         fs.mkdirsSync(path.join(mPath, year + album));      
     }   
     console.log( path.join(mPath,year + album + list.name[i]));
-    mv(list.path[i], path.join(mPath,year + album + '\\' + list.name[i]), 
+    mv(list.path[i], path.join(mPath,year + album + '\\' + list.name[i]), //move files to created folder
     function(err) {       
     if(err){
       console.log(err);
