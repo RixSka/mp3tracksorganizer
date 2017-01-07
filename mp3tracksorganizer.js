@@ -1,11 +1,11 @@
 var nodeID3 = require('node-id3');
-var fs = require('fs-extra');
+var fs = require('fs-extra'); 
 var mv = require('mv');
 var path = require('path'); 
-var args = process.argv.slice(2);
+var args = process.argv.slice(2); //get arguments
 var mPath; //where music is
 if (typeof args[0] == 'undefined'){ //check if at least an argument is specified 
-    console.log("Usage: node mp3trackorganizer path/of/files");
+    console.log("Usage: node mp3tracksorganizer path/of/files");
     process.exit(1);
 } else{
     mPath = args[0]; //set first argument as path. Other pathes will be ignored
