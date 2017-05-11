@@ -72,7 +72,7 @@ for (var i = 0;i<files;i++){ //do the job
     }   
     console.log( path.join(mPath,year + album + list.name[i]));
     mv(list.path[i], path.join(mPath,year + album + '\\' + list.name[i]), //move files to created folder
-    function(err) {       
+   (err) => {       
     if(err){
       console.log(err);
     }      
